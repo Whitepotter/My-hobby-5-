@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    margin-top: 100px;
+}
+
+.line {
+    height: 8px;
+    background-color: black;
+    width: 70px;
+    margin: 40px auto;
+}
+
+p {
+    font-size: 17px;
+}
+
+#welcome {
+    background: linear-gradient(#22c1c3, #fdbb2d);
+    z-index: 9;
+}
+
+#menu {
+    list-style: none;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    position: fixed;
+    z-index: 10;
+}
+
+.link:hover {
+    background-color: aquamarine;
+}
+
+.link {
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: serif;
+    font-size: 20px;
+}
+
+#hp:hover {
+    color: crimson;
+}
+
+#hp {
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.authors {
+    transition: transform .2s;
+    height:450px;
+    width:300px;
+}
+
+.authors:hover {
+    transform: scale(0.9);
+}
+#inspiration{
+    background:  linear-gradient(#07c7fa,#09796b);
+}
+#writings a{
+    text-shadow: none !important;
+    text-decoration:underline;
+    color:blue !important;
+}
+#contacts{
+    background-color: firebrick;
+}
+#contact_1 a{
+    color: white;
+    text-shadow: none;
+}
+#contact_1 h3{
+    display:inline;
+}
